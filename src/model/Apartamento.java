@@ -28,8 +28,8 @@ public class Apartamento extends Imovel {
     @Override
     public double calcularAluguel(int meses) {
         // 10% extra de condominio
-        valorAluguelMensal = valorAluguelMensal*1.10;
-        double total = valorAluguelMensal * meses;
+        double base = valorAluguelMensal * 1.10;
+        double total = base * meses;
           
         if (meses >= 36) {
             total *= 0.80;

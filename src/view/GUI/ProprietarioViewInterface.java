@@ -1,4 +1,4 @@
-package view.GUI;
+package view.gui;
 
 import controller.CorretoraController;
 import model.Proprietario;
