@@ -11,7 +11,6 @@ public class Inquilino {
         this.cpf = cpf;
     }
     
-    // Getters
     public String getNome() { return nome; }
     public String getTelefone() { return telefone; }
     public String getCpf() { return cpf; }

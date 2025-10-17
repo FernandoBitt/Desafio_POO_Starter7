@@ -80,7 +80,7 @@ public class ImovelView {
         double valorAluguel = scanner.nextDouble();
         scanner.nextLine();
         
-        // Selecionar proprietário
+        
         List<Proprietario> proprietarios = controller.listarProprietarios();
         if (proprietarios.isEmpty()) {
             System.out.println("É necessário cadastrar um proprietário primeiro!");

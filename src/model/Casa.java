@@ -21,7 +21,7 @@ public class Casa extends Imovel {
         return "Proprietário da casa: " + proprietario.toString();
     }
     
-    // Getters específicos
+    
     public boolean isTemQuintal() { return temQuintal; }
     public int getNumeroQuartos() { return numeroQuartos; }
     

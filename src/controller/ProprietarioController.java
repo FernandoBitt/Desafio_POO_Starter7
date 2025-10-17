@@ -11,7 +11,7 @@ public class ProprietarioController {
         this.proprietarios = new ArrayList<>();
     }
     
-    // CRUD operations
+    
     public void cadastrarProprietario(Proprietario proprietario) {
         proprietarios.add(proprietario);
     }
@@ -35,12 +35,12 @@ public class ProprietarioController {
         return new ArrayList<>(proprietarios);
     }
     
-    // Statistics
+    
     public int getTotalProprietarios() { 
         return proprietarios.size(); 
     }
     
-    // Data initialization
+    
     public void adicionarProprietarioExemplo(Proprietario proprietario) {
         proprietarios.add(proprietario);
     }

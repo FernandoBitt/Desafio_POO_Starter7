@@ -23,8 +23,25 @@ public class Apartamento extends Imovel {
     public String contatoProprietario() {
         return "Proprietário do apartamento: " + proprietario.toString();
     }
+
+    //sobreposição do método para utilização de polimorfismo
+    @Override
+    public double calcularAluguel(int meses) {
+        // 10% extra de condominio
+        valorAluguelMensal = valorAluguelMensal*1.10;
+        double total = valorAluguelMensal * meses;
+          
+        if (meses >= 36) {
+            total *= 0.80;
+        } else if (meses >= 24) {
+            total *= 0.85;
+        } else if (meses >= 12) {
+            total *= 0.90;
+        }
+        return total;
+    }
     
-    // Getters específicos
+    
     public int getAndar() { return andar; }
     public String getBloco() { return bloco; }
     public boolean isTemVaranda() { return temVaranda; }

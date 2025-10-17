@@ -12,7 +12,7 @@ public class ImovelController {
         this.imoveis = new ArrayList<>();
     }
     
-    // CRUD operations
+
     public void cadastrarImovel(Imovel imovel) {
         imoveis.add(imovel);
     }
@@ -48,7 +48,7 @@ public class ImovelController {
                      .collect(Collectors.toList());
     }
     
-    // Business operations
+    
     public boolean alugarImovel(int indexImovel, Inquilino inquilino) {
         if (indexImovel >= 0 && indexImovel < imoveis.size() && inquilino != null) {
             Imovel imovel = imoveis.get(indexImovel);
@@ -71,7 +71,7 @@ public class ImovelController {
         return 0.0;
     }
     
-    // Statistics
+    
     public int getTotalImoveis() { 
         return imoveis.size(); 
     }
@@ -84,7 +84,7 @@ public class ImovelController {
         return (int) imoveis.stream().filter(Imovel::isAlugado).count(); 
     }
     
-    // Data initialization
+    
     public void adicionarImovelExemplo(Imovel imovel) {
         imoveis.add(imovel);
     }

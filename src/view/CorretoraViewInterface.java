@@ -25,7 +25,7 @@ public class CorretoraViewInterface {
             escolha = JOptionPane.showOptionDialog(
                     null,
                     "Escolha uma das opções abaixo:",
-                    "🏠 SISTEMA CORRETORA IMOBILIÁRIA",
+                    "SISTEMA CORRETORA IMOBILIÁRIA",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
                     null,
@@ -33,7 +33,6 @@ public class CorretoraViewInterface {
                     opcoes[0]
             );
 
-            // Quando o usuário clica em "Fechar" na janela
             if (escolha == JOptionPane.CLOSED_OPTION) {
                 escolha = 4; // tratar como "Sair"
             }

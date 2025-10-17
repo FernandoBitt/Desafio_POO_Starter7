@@ -10,8 +10,7 @@ public class Proprietario {
         this.telefone = telefone;
         this.cpf = cpf;
     }
-    
-    // Getters e Setters
+
     public String getNome() { return nome; }
     public void setNome(String nome) { this.nome = nome; }
     

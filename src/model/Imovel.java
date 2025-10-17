@@ -25,8 +25,7 @@ public abstract class Imovel {
     
     public double calcularAluguel(int meses) {
         double total = valorAluguelMensal * meses;
-        
-        
+          
         if (meses >= 36) {
             total *= 0.85;
         } else if (meses >= 24) {

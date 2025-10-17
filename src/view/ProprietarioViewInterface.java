@@ -20,7 +20,7 @@ public class ProprietarioViewInterface {
             escolha = JOptionPane.showOptionDialog(
                     null,
                     "Selecione uma opção:",
-                    "🏡 GERENCIAR PROPRIETÁRIOS",
+                    "GERENCIAR PROPRIETÁRIOS",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
                     null,

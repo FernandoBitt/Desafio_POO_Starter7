@@ -11,7 +11,7 @@ public class InquilinoController {
         this.inquilinos = new ArrayList<>();
     }
     
-    // CRUD operations
+    
     public void cadastrarInquilino(Inquilino inquilino) {
         inquilinos.add(inquilino);
     }
@@ -35,12 +35,12 @@ public class InquilinoController {
         return new ArrayList<>(inquilinos);
     }
     
-    // Statistics
+    
     public int getTotalInquilinos() { 
         return inquilinos.size(); 
     }
     
-    // Data initialization
+    
     public void adicionarInquilinoExemplo(Inquilino inquilino) {
         inquilinos.add(inquilino);
     }

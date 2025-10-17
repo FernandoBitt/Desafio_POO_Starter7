@@ -82,7 +82,7 @@ public class ImovelViewInterface {
             return;
         double valorAluguel = Double.parseDouble(valorStr);
 
-        // Selecionar proprietário
+        
         List<Proprietario> proprietarios = controller.listarProprietarios();
         if (proprietarios.isEmpty()) {
             JOptionPane.showMessageDialog(null, "É necessário cadastrar um proprietário primeiro!");
@@ -196,7 +196,7 @@ public class ImovelViewInterface {
             return;
         }
 
-        // Selecionar imóvel
+        
         StringBuilder sbImoveis = new StringBuilder("Imóveis disponíveis:\n");
         for (int i = 0; i < disponiveis.size(); i++) {
             sbImoveis.append(i + 1).append(" - ").append(disponiveis.get(i)).append("\n");
@@ -206,7 +206,7 @@ public class ImovelViewInterface {
             return;
         int indexImovel = Integer.parseInt(escolhaImovel) - 1;
 
-        // Selecionar inquilino
+        
         StringBuilder sbInquilinos = new StringBuilder("Inquilinos:\n");
         for (int i = 0; i < inquilinos.size(); i++) {
             sbInquilinos.append(i + 1).append(" - ").append(inquilinos.get(i)).append("\n");

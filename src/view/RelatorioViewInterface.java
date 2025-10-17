@@ -22,7 +22,7 @@ public class RelatorioViewInterface {
         JOptionPane.showMessageDialog(
                 null,
                 relatorio.toString(),
-                "📊 Relatórios",
+                "Relatórios",
                 JOptionPane.INFORMATION_MESSAGE
         );
     }

@@ -20,7 +20,7 @@ public class InquilinoViewInterface {
             escolha = JOptionPane.showOptionDialog(
                     null,
                     "Selecione uma opção:",
-                    "🏠 GERENCIAR INQUILINOS",
+                    "GERENCIAR INQUILINOS",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE,
                     null,
