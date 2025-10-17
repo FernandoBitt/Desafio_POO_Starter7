@@ -56,6 +56,10 @@ public class CorretoraController {
         return proprietarioController.listarProprietarios();
     }
 
+    public boolean deletarProprietario(int index) {
+        return proprietarioController.deletarProprietario(index);
+    }
+
     public Proprietario getProprietario(int index) {
         return proprietarioController.getProprietario(index);
     }
@@ -66,6 +70,10 @@ public class CorretoraController {
 
     public List<Inquilino> listarInquilinos() {
         return inquilinoController.listarInquilinos();
+    }
+
+    public boolean deletarInquilinos(int index) {
+        return inquilinoController.deletarInquilino(index);
     }
 
     public Inquilino getInquilino(int index) {
