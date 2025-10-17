@@ -1,6 +1,7 @@
-package view;
+package view.console;
 
 import controller.CorretoraController;
+
 import java.util.Scanner;
 
 public class CorretoraView {
