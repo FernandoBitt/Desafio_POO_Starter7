@@ -1,8 +1,9 @@
-import view.CorretoraView;
+//import view.CorretoraView;
+import view.CorretoraViewInterface;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        CorretoraView view = new CorretoraView();
+        CorretoraViewInterface view = new CorretoraViewInterface();
         view.iniciar();
     }
 }
