@@ -18,7 +18,8 @@ public abstract class Imovel {
     }
     
     
-    public abstract String estaAlugado();
+    public abstract boolean estaAlugado();
+    
     public abstract String contatoProprietario();
     
     

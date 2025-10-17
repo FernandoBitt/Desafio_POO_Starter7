@@ -12,8 +12,8 @@ public class Casa extends Imovel {
     }
     
     @Override
-    public String estaAlugado() {
-        return alugado ? "A casa está alugada" : "A casa está disponível";
+    public boolean estaAlugado() {
+        return alugado ? true : false;
     }
     
     @Override
